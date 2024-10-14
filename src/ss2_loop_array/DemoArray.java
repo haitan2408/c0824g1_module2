@@ -1,5 +1,6 @@
 package ss2_loop_array;
 
+
 import java.util.Arrays;
 
 public class DemoArray {
@@ -18,6 +19,7 @@ public class DemoArray {
         System.out.println(Arrays.toString(arr1));
 
         double a,b;
+
 
     }
 }
