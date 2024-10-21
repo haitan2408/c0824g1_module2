@@ -19,6 +19,13 @@ public class Student {
     }
 
     public static void main(String[] args) {
+        Student s3 = getStudent();
+        int c = 4;
+        int d = 5;
+        s3.swap(c, d);
+    }
+
+    public static Student getStudent() {
         Student s = new Student();
         s.nameSchool="CodeGym";
         Student s2 = new Student();
@@ -28,8 +35,6 @@ public class Student {
         System.out.println(s.nameSchool);
         Student s3 = new Student();
         s3.nameSchool="IVtect";
-        int c = 4;
-        int d = 5;
-        s3.swap(c, d);
+        return s3;
     }
 }
