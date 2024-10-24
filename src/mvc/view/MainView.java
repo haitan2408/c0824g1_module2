@@ -33,14 +33,18 @@ public class MainView {
         System.out.println("3. Sửa thông tin học sinh");
         System.out.println("4. Xóa học sinh");
         System.out.println("5. Tìm kiếm học sinh theo tên hoặc id");
+        System.out.println("6. Sắp xếp học sinh theo tên hoặc id");
         System.out.print("Nhập lựa chọn: ");
         Scanner scanner = new Scanner(System.in);
         int choice = Integer.parseInt(scanner.nextLine());
+        int subChoice;
+        List<Student> students;
+
         switch (choice) {
             case 1:
                 System.out.println("Hiển thị danh sách học sinh");
-                List<Student> students = studentController.getAll();
-                for (int i = 0; i< students.size(); i++) {
+                students = studentController.getAll();
+                for (int i = 0; i < students.size(); i++) {
                     System.out.println(students.get(i));
                 }
                 break;
@@ -55,6 +59,23 @@ public class MainView {
                 break;
             case 5:
                 System.out.println("Tìm kiếm học sinh theo tên hoặc id");
+                break;
+            case 6:
+                System.out.println("Bạn muốn sắp xếp theo:");
+                System.out.println("1. Theo tên");
+                System.out.println("2. Theo id");
+                subChoice = Integer.parseInt(scanner.nextLine());
+                if (subChoice == 1) {
+                    students = studentController.displayAllStudentSortById();
+                    for (int i = 0; i < students.size(); i++) {
+                        System.out.println(students.get(i));
+                    }
+
+                } else if (subChoice == 2) {
+
+                } else {
+                    System.out.println("Invalid");
+                }
                 break;
         }
     }

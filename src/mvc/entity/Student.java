@@ -1,6 +1,6 @@
 package mvc.entity;
 
-public class Student extends Person {
+public class Student extends Person implements Comparable<Student> {
     private double point;
     private String className;
 
@@ -36,5 +36,17 @@ public class Student extends Person {
                 "point=" + point +
                 ", className='" + className + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        if(this.getCode() > o.getCode()) {
+            return 1;
+        } else if (this.getCode() == o.getCode()) {
+            return 0;
+        } else {
+            return -1;
+        }
+
     }
 }

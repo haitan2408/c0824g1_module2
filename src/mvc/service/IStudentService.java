@@ -4,8 +4,6 @@ import mvc.entity.Student;
 
 import java.util.List;
 
-public interface IStudentService {
-
-    List<Student> getAll();
+public interface IStudentService extends IPersonService<Student> {
 
 }

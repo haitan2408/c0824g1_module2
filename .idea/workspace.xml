@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e63c8bb-6ec1-4d1f-9db2-65db34a07a8f" name="Changes" comment="Up git demo oop">
-      <change afterPath="$PROJECT_DIR$/src/ss4_oop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5_access_modifier/StudentLevel1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract/IPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract/IStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abstract/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_TDD/DemoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss9_TDD/DemoSumTest.java" afterDir="false" />
+    <list default="true" id="3e63c8bb-6ec1-4d1f-9db2-65db34a07a8f" name="Changes" comment="Up git demo mvc">
+      <change afterPath="$PROJECT_DIR$/src/mvc/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvc/service/IPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvc/service/ITeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvc/service/impl/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_map/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c0824g1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/c0824g1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_method/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_method/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4_oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4_oop/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/service/IStudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -49,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Demo.executor": "Run",
     "Application.DemoArray.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.ss3_method.Student.executor": "Run",
@@ -60,13 +55,14 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20241021_0002",
+    "com.google.cloudcode.ide_session_index": "20241024_0000",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "extract.method.default.visibility": "public",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/Desktop/codegym/teacher/Module_2/demo/c0824g1/src/mvc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +73,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mvc" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -87,13 +86,13 @@
       <recent name="ss8_clean_code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoSumTest.sum">
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1_java_overview.Student" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_map.Demo" />
       <module name="c0824g1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1_java_overview.*" />
+          <option name="PATTERN" value="ss12_map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.DemoSumTest.sum" />
         <item itemvalue="Application.ss7_abstract.Student" />
         <item itemvalue="Application.ss4_oop.Student" />
         <item itemvalue="Application.ss3_method.Student" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +194,9 @@
       <workItem from="1729474005840" duration="73000" />
       <workItem from="1729474104892" duration="344000" />
       <workItem from="1729480455342" duration="2246000" />
+      <workItem from="1729499458895" duration="1997000" />
+      <workItem from="1729654342718" duration="793000" />
+      <workItem from="1729738351959" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Up git demo array">
       <option name="closed" value="true" />
@@ -212,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728879461520</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Up git demo mvc">
+      <option name="closed" value="true" />
+      <created>1729502074571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729502074571</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Up git demo array" />
     <MESSAGE value="Up git demo oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up git demo oop" />
+    <MESSAGE value="Up git demo mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up git demo mvc" />
   </component>
 </project>
