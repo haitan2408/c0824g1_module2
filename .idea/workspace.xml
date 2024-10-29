@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e63c8bb-6ec1-4d1f-9db2-65db34a07a8f" name="Changes" comment="Up git demo mvc">
-      <change afterPath="$PROJECT_DIR$/src/mvc/entity/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/service/IPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/service/ITeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc/service/impl/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss12_map/Demo.java" afterDir="false" />
+    <list default="true" id="3e63c8bb-6ec1-4d1f-9db2-65db34a07a8f" name="Changes" comment="Up git demo map và mvc">
+      <change afterPath="$PROJECT_DIR$/src/ss15_exception/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/view/MainView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,9 @@
   "keyToString": {
     "Application.Demo.executor": "Run",
     "Application.DemoArray.executor": "Run",
+    "Application.MainView.executor": "Run",
     "Application.Student.executor": "Run",
+    "Application.ss15_exception.Demo.executor": "Run",
     "Application.ss3_method.Student.executor": "Run",
     "Application.ss4_oop.Student.executor": "Run",
     "Application.ss6_inheritance.Student.executor": "Run",
@@ -55,7 +51,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20241024_0000",
+    "com.google.cloudcode.ide_session_index": "20241029_0000",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
@@ -73,6 +69,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mvc.utils.sort" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/mvc" />
     </key>
@@ -86,7 +85,7 @@
       <recent name="ss8_clean_code" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.MainView">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss12_map.Demo" />
       <module name="c0824g1" />
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss3_method.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3_method.Student" />
+    <configuration name="MainView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mvc.view.MainView" />
       <module name="c0824g1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3_method.*" />
+          <option name="PATTERN" value="mvc.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss4_oop.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_oop.Student" />
+    <configuration name="ss15_exception.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_exception.Demo" />
       <module name="c0824g1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_oop.*" />
+          <option name="PATTERN" value="ss15_exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainView" />
+        <item itemvalue="Application.ss15_exception.Demo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.DemoSumTest.sum" />
         <item itemvalue="Application.ss7_abstract.Student" />
-        <item itemvalue="Application.ss4_oop.Student" />
-        <item itemvalue="Application.ss3_method.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,8 @@
       <workItem from="1729480455342" duration="2246000" />
       <workItem from="1729499458895" duration="1997000" />
       <workItem from="1729654342718" duration="793000" />
-      <workItem from="1729738351959" duration="603000" />
+      <workItem from="1729738351959" duration="1483000" />
+      <workItem from="1730170062884" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="Up git demo array">
       <option name="closed" value="true" />
@@ -222,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729502074571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Up git demo map và mvc">
+      <option name="closed" value="true" />
+      <created>1729739747495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729739747495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +240,7 @@
     <MESSAGE value="Up git demo array" />
     <MESSAGE value="Up git demo oop" />
     <MESSAGE value="Up git demo mvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up git demo mvc" />
+    <MESSAGE value="Up git demo map và mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up git demo map và mvc" />
   </component>
 </project>
