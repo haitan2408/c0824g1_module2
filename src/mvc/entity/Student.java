@@ -32,7 +32,7 @@ public class Student extends Person implements Comparable<Student> {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return super.toString()+ "Student{" +
                 "point=" + point +
                 ", className='" + className + '\'' +
                 '}';
