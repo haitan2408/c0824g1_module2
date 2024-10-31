@@ -1,5 +1,7 @@
 package mvc.entity;
 
+import java.io.Serializable;
+
 public class Student extends Person implements Comparable<Student> {
     private double point;
     private String className;
