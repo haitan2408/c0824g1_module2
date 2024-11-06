@@ -4,8 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e63c8bb-6ec1-4d1f-9db2-65db34a07a8f" name="Changes" comment="Up git demo file nhị phân">
+    <list default="true" id="3e63c8bb-6ec1-4d1f-9db2-65db34a07a8f" name="Changes" comment="Up git demo SOLID">
+      <change afterPath="$PROJECT_DIR$/src/mvc/service/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mvc/utils/enum_demo/ServiceEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/BankFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/SacomBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/TPBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/TypeBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/factory_method/VietComBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/singleton/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/singleton/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss21_design_pattern/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/HotelKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/NonVegMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/NonVegRestaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/VegMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/facade/VegRestaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/observer/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/observer/HotGirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/proxy/Internet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/proxy/ProxyInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/proxy/RealInternet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/SortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/SortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss22_dp_2/strategy/StrategyPatternExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mvc/service/impl/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc/service/impl/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +78,7 @@
     "Application.MainView.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.ss15_exception.Demo.executor": "Run",
+    "Application.ss19_string.Demo.executor": "Run",
     "Application.ss3_method.Student.executor": "Run",
     "Application.ss4_oop.Student.executor": "Run",
     "Application.ss6_inheritance.Student.executor": "Run",
@@ -49,7 +88,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20241031_0000",
+    "com.google.cloudcode.ide_session_index": "20241106_0001",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
@@ -58,7 +97,7 @@
     "extract.method.default.visibility": "public",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mac/Desktop/codegym/teacher/Module_2/demo/c0824g1/src/mvc",
+    "last_opened_file_path": "/Users/mac/Desktop/codegym/teacher/Module_2/demo/c0824g1/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,6 +112,7 @@
       <recent name="mvc.utils.sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/mvc" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -125,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss7_abstract.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abstract.Student" />
+    <configuration name="ss19_string.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string.Demo" />
       <module name="c0824g1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abstract.*" />
+          <option name="PATTERN" value="ss19_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,10 +197,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainView" />
+        <item itemvalue="Application.ss19_string.Demo" />
         <item itemvalue="Application.ss15_exception.Demo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.DemoSumTest.sum" />
-        <item itemvalue="Application.ss7_abstract.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +239,11 @@
       <workItem from="1730170062884" duration="2378000" />
       <workItem from="1730256563183" duration="2052000" />
       <workItem from="1730343985688" duration="1082000" />
+      <workItem from="1730434441561" duration="45000" />
+      <workItem from="1730690924535" duration="2124000" />
+      <workItem from="1730773555548" duration="276000" />
+      <workItem from="1730776479969" duration="1703000" />
+      <workItem from="1730859122278" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="Up git demo array">
       <option name="closed" value="true" />
@@ -256,7 +301,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730345385243</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Up git demo threading">
+      <option name="closed" value="true" />
+      <created>1730434476734</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730434476734</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Up git demo string và regex">
+      <option name="closed" value="true" />
+      <created>1730694652284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730694652284</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Up git demo SOLID">
+      <option name="closed" value="true" />
+      <created>1730779360993</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730779360993</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +339,9 @@
     <MESSAGE value="Up git demo exception và mvc" />
     <MESSAGE value="Up git demo IO File" />
     <MESSAGE value="Up git demo file nhị phân" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up git demo file nhị phân" />
+    <MESSAGE value="Up git demo threading" />
+    <MESSAGE value="Up git demo string và regex" />
+    <MESSAGE value="Up git demo SOLID" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up git demo SOLID" />
   </component>
 </project>

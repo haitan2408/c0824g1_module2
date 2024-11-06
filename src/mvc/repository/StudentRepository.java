@@ -20,9 +20,6 @@ public class StudentRepository {
     private static List<Student> students = new ArrayList<>();
 
     static {
-        students.add(new Student(1, "Nguyễn Văn A", "Hà Nội", 10, "C0724G1"));
-        students.add(new Student(1, "Nguyễn Văn A", "Hà Nội", 10, "C0724G1"));
-        students.add(new Student(1, "Nguyễn Văn A", "Hà Nội", 10, "C0724G1"));
         File file = new File("src/mvc/data/data.dat");
         try {
             FileOutputStream outputStream = new FileOutputStream(file);

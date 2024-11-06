@@ -9,6 +9,15 @@ import java.util.List;
 
 public class StudentService implements IStudentService {
     private static StudentRepository studentRepository = new StudentRepository();
+
+    private static StudentService instance = new StudentService();
+
+    private StudentService(){}
+
+    public static StudentService getInstance(){
+        return instance;
+    }
+
     @Override
     public List<Student> getAll() {
         List<Student> students = studentRepository.getAll();
